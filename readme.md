@@ -102,5 +102,5 @@ const pluginExample = () => ({
     }
 });
 
-export default pluginBabel;
+export default pluginExample;
 ```
