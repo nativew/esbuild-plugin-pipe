@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-const pluginMerge = (options = {}) => ({
-	name: 'merge',
+const pluginPipe = (options = {}) => ({
+	name: 'pipe',
 	setup(build) {
 		const { filter = /.*/, namespace = '', plugins = [] } = options;
 
@@ -20,4 +20,4 @@ const pluginMerge = (options = {}) => ({
 	}
 });
 
-export default pluginMerge;
+export default pluginPipe;
