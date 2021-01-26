@@ -76,7 +76,7 @@ If you are a plugin maker, it's really easy to support piping. Here’s a commen
 ```js
 const pluginExample = () => ({
     name: 'example',
-    setup(build, transform) {
+    setup(build, { transform } = {}) {
         // The `setup` function receives a new `transform` argument if it’s in a pipe.
 
         // Create a function and move all the content of your `onLoad` function in it, except the `readfile`.
@@ -104,3 +104,13 @@ const pluginExample = () => ({
 
 export default pluginExample;
 ```
+
+<br>
+
+### Check
+
+[esbuild-plugin-babel](https://github.com/nativew/esbuild-plugin-babel) &nbsp; → &nbsp; Babel plugin for esbuild.
+
+[esbuild-plugin-postcss-literal](https://github.com/nativew/esbuild-plugin-postcss-literal) &nbsp; → &nbsp; PostCSS tagged template literals plugin for esbuild.
+
+<br>

@@ -9,7 +9,7 @@
 	"main": "src/index.js",
 	"type": "module",
 	"scripts": {
-		"format": "prettier --write '**/*'"
+		"format": "prettier --write --ignore-unknown '**/*'"
 	},
 	"devDependencies": {
 		"prettier": "^2.2.1"

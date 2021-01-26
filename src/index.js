@@ -12,7 +12,7 @@ const pluginPipe = (options = {}) => ({
 				async (transform, plugin) => {
 					const { contents } = await transform;
 
-					return plugin.setup(build, { args, contents });
+					return plugin.setup(build, { transform: { args, contents } });
 				},
 				{ contents }
 			);
