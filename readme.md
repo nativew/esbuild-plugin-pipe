@@ -17,7 +17,7 @@ Pipe [esbuild](https://github.com/evanw/esbuild) plugins output.
 ### Install
 
 ```zsh
-npm install esbuild-plugin-pipe --save-dev
+npm install esbuild-plugin-pipe -D
 ```
 
 <br>
@@ -114,6 +114,8 @@ export default pluginExample;
 [esbuild-serve](https://github.com/nativew/esbuild-serve) &nbsp; → &nbsp; Serve with live reload for esbuild.
 
 [esbuild-plugin-babel](https://github.com/nativew/esbuild-plugin-babel) &nbsp; → &nbsp; Babel plugin for esbuild.
+
+[esbuild-plugin-svg](https://github.com/nativew/esbuild-plugin-svg) &nbsp; → &nbsp; Svg files import plugin for esbuild.
 
 [esbuild-plugin-postcss-literal](https://github.com/nativew/esbuild-plugin-postcss-literal) &nbsp; → &nbsp; PostCSS tagged template literals plugin for esbuild.
 
